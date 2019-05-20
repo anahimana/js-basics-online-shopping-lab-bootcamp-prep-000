@@ -95,3 +95,5 @@ function placeOrder(cardNumber) {
   // write your code here
   console.log(cardNumber);
 }
+
+placeOrder(343424323);
