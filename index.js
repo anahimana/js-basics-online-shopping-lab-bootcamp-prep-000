@@ -99,7 +99,7 @@ function placeOrder(cardNumber) {
   }
   // Empty the cart array
   console.log("Hello!");
-  console.log(setCart());
+  console.log(setCart(c));
 }
 
 placeOrder(1234);
