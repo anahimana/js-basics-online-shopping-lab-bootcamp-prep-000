@@ -5,7 +5,7 @@ function getRandomNumber(min, max) {
 }
 
 // var cart = [];
-var cart = [{itemName: "Apples", itemPrice: 10}, {itemName: "Oranges", itemPrice: 12}, {itemName: "Candy", itemPrice: 40} ];
+// var cart = [{itemName: "Apples", itemPrice: 10}, {itemName: "Oranges", itemPrice: 12}, {itemName: "Candy", itemPrice: 40} ];
 
 function getCart() {
  return cart;
@@ -78,8 +78,8 @@ function removeFromCart(item) {
   return removeCart;
 }
 
-console.log(removeFromCart('Oranges'));
-console.log(removeFromCart('Candy'));
+// console.log(removeFromCart('Oranges'));
+// console.log(removeFromCart('Candy'));
 
 
 function placeOrder(cardNumber) {
