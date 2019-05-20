@@ -78,7 +78,7 @@ function removeFromCart(item) {
   if( itemPos >= 0){
     // console.log("It is there!");
     console.log(cartItems);
-    removeCart.splice(cartItems.indexOf(item), 1);
+    removeCart.splice(itemPos, 1);
     // console.log(removeCart);
     
   } else{
