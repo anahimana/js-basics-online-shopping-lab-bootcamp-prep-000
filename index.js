@@ -66,6 +66,7 @@ function removeFromCart(item) {
   for(let i = 0; i < removeCart.length; i++) {
     if (removeCart[i].itemName[0] === item) {
       console.log("Found item!");
+      itemFound = true;
       removeCart.splice(i, 1);
     }
   }
