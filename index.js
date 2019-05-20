@@ -70,14 +70,13 @@ function removeFromCart(item) {
       itemFound = true;
       removeCart.splice(i, 1);
     }
-  
-  // Return message if item is not found!
-    if(!itemFound){
-      console.log("That item is not in your cart.");
-      return "That item is not in your cart.";
-    }
-    
   }
+  // Return message if item is not found!
+  if(!itemFound){
+    console.log("That item is not in your cart.");
+    return "That item is not in your cart.";
+  }
+
 }
 
 addToCart("vanilla");
