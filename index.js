@@ -71,7 +71,7 @@ function removeFromCart(item) {
     }
   
     if(!itemFound){
-      
+      return "Item not found"
     }
   }
 }
