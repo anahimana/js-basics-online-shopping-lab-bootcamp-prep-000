@@ -79,7 +79,8 @@ function removeFromCart(item) {
 //   return removeCart;
 }
 
-console.log(removeFromCart('Oranges'));
+
+// console.log(removeFromCart('Oranges'));
 // console.log(removeFromCart('Candy'));
 
 
