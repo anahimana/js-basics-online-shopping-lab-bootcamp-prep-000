@@ -67,6 +67,7 @@ function removeFromCart(item) {
       removeCart.splice(i, 1);
     }
   }
+  return removeCart;
 }
 
 removeFromCart('Oranges');
