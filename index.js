@@ -72,7 +72,7 @@ function removeFromCart(item) {
     cartItems.push(removeCart[i].itemName);
     // console.log(cartItems);
   }
-  console.log("Just left the loop")
+  console.log("Just left the loop");
   // Check if item is in cartItems
   if(cartItems.indexOf(item) >= 0){
     // console.log("It is there!");
