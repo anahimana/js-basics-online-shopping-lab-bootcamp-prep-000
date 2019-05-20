@@ -1,3 +1,9 @@
+// Generate random Number
+
+function getRandomNumber(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
 var cart = [];
 
 function getCart() {
@@ -10,20 +16,77 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+  // write your code here
+  // Add Item Name and Item Price
+  const itemObject = Object.assign({}, { itemName: [item], itemPrice: getRandomNumber(1, 100)});
+  cart.push(itemObject);
+  return `${item} has been added to your cart.`;
+  
 }
 
 function viewCart() {
-  // write your code here
+  const myCart = getCart();
+  const myCartSize = myCart.length;
+  let myString = "In your cart, you have ";
+  if(myCartSize < 1){
+    return "Your shopping cart is empty.";
+  }else if(myCartSize === 1){
+    myString += `${myCart[0].itemName} at \$${myCart[0].itemPrice}.`;
+  }else if(myCartSize === 2){
+    myString += `${myCart[0].itemName} at \$${myCart[0].itemPrice}, and ${myCart[1].itemName} at \$${myCart[1].itemPrice}.`;
+  }else if(myCartSize > 2){
+    for(let i = 0; i < myCartSize; i++){
+      if(i !== myCartSize -1 ){
+        myString += `${myCart[i].itemName} at \$${myCart[i].itemPrice}, `;
+      }else{
+        myString += `and ${myCart[i].itemName} at \$${myCart[i].itemPrice}.`;
+      }
+    }
+  }
+  return myString;
 }
 
 function total() {
   // write your code here
+  const totalCart = getCart();
+  let totalCartValue = 0;
+  for(let i = 0; i < totalCart.length; i++ ){
+    totalCartValue += totalCart[i].itemPrice;
+  }
+  return totalCartValue;
 }
+
+let myArray = [{itemName: "Apples", itemPrice: 10}, {itemName: "Oranges", itemPrice: 12}, {itemName: "Candy", itemPrice: 40} ];
 
 function removeFromCart(item) {
   // write your code here
+  const removeCart = getCart().slice(0, getCart().length);
+  // const removeCart = myArray.slice(0, myArray.length);
+  let cartItems = [];
+  
+  // Add items to cartItems
+  for(let i = 0; i < removeCart.length; i++) {
+    cartItems.push(removeCart[i].itemName);
+  }
+  
+  // Check if item is in cartItems
+  if(cartItems.indexOf(item) >= 0){
+    // console.log("It is there!");
+    // console.log(cartItems);
+    removeCart.splice(cartItems.indexOf(item), 1);
+    // console.log(removeCart);
+    
+  } else{
+    // console.log(cartItems);
+    // console.log("It is not there!");
+    return "That item is not in your cart.";
+  }
+  
 }
+
+// console.log(removeFromCart('Oranges'));
+// console.log(removeFromCart("Tacos!"));
+
 
 function placeOrder(cardNumber) {
   // write your code here
