@@ -65,6 +65,7 @@ function removeFromCart(item) {
   // const removeCart = myArray.slice(0, myArray.length);
   console.log(removeCart);
   let cartItems = [];
+  return
   
   // Add items to cartItems
   for(let i = 0; i < removeCart.length; i++) {
