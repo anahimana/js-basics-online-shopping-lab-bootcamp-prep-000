@@ -4,7 +4,7 @@ function getRandomNumber(min, max) {
   return Math.random() * (max - min) + min;
 }
 
-// var cart = [];
+var cart = [];
 var cart = [{itemName: "Apples", itemPrice: 10}, {itemName: "Oranges", itemPrice: 12}, {itemName: "Candy", itemPrice: 40} ];
 
 function getCart() {
