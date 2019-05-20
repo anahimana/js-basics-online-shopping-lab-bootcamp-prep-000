@@ -87,7 +87,7 @@ function removeFromCart(item) {
     // console.log("It is not there!");
     return "That item is not in your cart.";
   }
-  return "Leaving the function!"
+  return "Leaving the removeFromCart function!"
 }
 
 console.log(removeFromCart('Oranges'));
