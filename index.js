@@ -65,6 +65,7 @@ function removeFromCart(item) {
 
   // Add items to cartItems
   for(let i = 0; i < removeCart.length; i++) {
+    console.log(i)
     // cartItems.push(removeCart[i].itemName);
   }
   
