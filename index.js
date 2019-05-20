@@ -70,12 +70,12 @@ function removeFromCart(item) {
   }
 }
 
-// addToCart("vanilla");
-// addToCart("watermelon");
-// addToCart("yams");
+addToCart("vanilla");
+addToCart("watermelon");
+addToCart("yams");
 
-// removeFromCart('watermelon');
-// console.log(getCart());
+removeFromCart('watermelon');
+console.log(getCart());
 
 
 function placeOrder(cardNumber) {
