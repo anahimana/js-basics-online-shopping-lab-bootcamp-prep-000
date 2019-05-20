@@ -60,7 +60,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  console.log("IN")
+  console.log("IN");
   const removeCart = getCart();
 
   for(let i = 0; i < removeCart.length; i++) {
