@@ -89,7 +89,7 @@ function removeFromCart(item) {
   
 }
 
-console.log(removeFromCart('Jokie'));
+console.log(removeFromCart('Oranges'));
 // console.log(removeFromCart("Tacos!"));
 
 
