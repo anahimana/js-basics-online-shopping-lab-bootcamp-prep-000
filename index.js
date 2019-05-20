@@ -80,16 +80,6 @@ function removeFromCart(item) {
 
 }
 
-// addToCart("vanilla");
-// addToCart("watermelon");
-// addToCart("yams");
-
-// removeFromCart('watermelon');
-// console.log(getCart());
-// removeFromCart('vanilla');
-// console.log(getCart());
-
-
 
 function placeOrder(cardNumber) {
   // write your code here
