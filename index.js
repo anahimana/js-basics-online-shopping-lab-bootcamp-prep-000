@@ -68,6 +68,7 @@ function removeFromCart(item) {
     if (removeCart[i].itemName === item) {
       console.log(item);
       removeCart.splice(i, 1);
+      console.log(removeCart)
     }
     // cartItems.push(removeCart[i].itemName);
   }
