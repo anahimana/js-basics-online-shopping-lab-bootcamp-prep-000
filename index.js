@@ -74,7 +74,8 @@ function removeFromCart(item) {
   }
   // console.log("Just left the loop");
   // Check if item is in cartItems
-  if(cartItems.indexOf(item) >= 0){
+  let itemPos = cartItems.indexOf(item);
+  if( >= 0){
     // console.log("It is there!");
     console.log(cartItems);
     removeCart.splice(cartItems.indexOf(item), 1);
