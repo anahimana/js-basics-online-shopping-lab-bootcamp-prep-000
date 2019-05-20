@@ -64,19 +64,19 @@ function removeFromCart(item) {
   let cartItems = [];
 
   // Add items to cartItems
-  for(let i = 0; i < removeCart.length; i++) {
-    cartItems.push(removeCart[i].itemName);
-  }
+  // for(let i = 0; i < removeCart.length; i++) {
+  //   cartItems.push(removeCart[i].itemName);
+  // }
   
   // Check if item is in cartItems
-  let itemPos = cartItems.indexOf(item);
-  if(itemPos >= 0){
-    removeCart.splice(itemPos, 1);
-  } else{
-    return "That item is not in your cart.";
-  }
-  return removeCart;
-}
+//   let itemPos = cartItems.indexOf(item);
+//   if(itemPos >= 0){
+//     removeCart.splice(itemPos, 1);
+//   } else{
+//     return "That item is not in your cart.";
+//   }
+//   return removeCart;
+// }
 
 // console.log(removeFromCart('Oranges'));
 // console.log(removeFromCart('Candy'));
