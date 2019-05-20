@@ -66,7 +66,7 @@ function removeFromCart(item) {
   // Loop to check if item is in the array
   for(let i = 0; i < removeCart.length; i++) {
     if (removeCart[i].itemName[0] === item) {
-      console.log("Found item!");
+      // console.log("Found item!");
       itemFound = true;
       removeCart.splice(i, 1);
     }
@@ -74,7 +74,7 @@ function removeFromCart(item) {
 
   // Return message if item is not found!
   if(!itemFound){
-    console.log("That item is not in your cart.");
+    // console.log("That item is not in your cart.");
     return "That item is not in your cart.";
   }
 
