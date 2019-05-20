@@ -57,7 +57,6 @@ function total() {
   return totalCartValue;
 }
 
-let myArray = [{itemName: "Apples", itemPrice: 10}, {itemName: "Oranges", itemPrice: 12}, {itemName: "Candy", itemPrice: 40} ];
 
 function removeFromCart(item) {
   // write your code here
