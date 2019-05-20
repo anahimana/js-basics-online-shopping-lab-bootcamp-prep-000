@@ -73,7 +73,7 @@ addToCart("vanilla");
 addToCart("watermelon");
 addToCart("yams");
 
-console.log(getCart);
+console.log(getCart());
 removeFromCart("watermelon");
 
 
