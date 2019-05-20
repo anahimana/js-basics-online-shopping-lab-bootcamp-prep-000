@@ -62,7 +62,7 @@ function removeFromCart(item) {
   // write your code here
   const removeCart = getCart();
   for(let i = 0; i < removeCart.length; i++) {
-    console.log(removeCart[i].itemName)
+    console.log([item])
     if (removeCart[i].itemName === item) {
       console.log("Found item!");
       removeCart.splice(i, 1);
