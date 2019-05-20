@@ -67,6 +67,7 @@ function removeFromCart(item) {
   for(let i = 0; i < removeCart.length; i++) {
     cartItems.push(removeCart[i].itemName);
   }
+  
   // Check if item is in cartItems
   let itemPos = cartItems.indexOf(item);
   if(itemPos >= 0){
