@@ -70,8 +70,8 @@ function removeFromCart(item) {
   return removeCart;
 }
 
-removeFromCart('Oranges');
-removeFromCart('Candy');
+// removeFromCart('Oranges');
+// removeFromCart('Candy');
 // console.log(removeFromCart('Oranges'));
 // console.log(removeFromCart('Candy'));
 
