@@ -73,7 +73,7 @@ function removeFromCart(item) {
 addToCart("vanilla");
 addToCart("watermelon");
 addToCart("yams");
-
+removeFromCart("watermelon");
 
 
 function placeOrder(cardNumber) {
