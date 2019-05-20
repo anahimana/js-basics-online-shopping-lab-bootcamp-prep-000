@@ -71,6 +71,7 @@ function removeFromCart(item) {
       removeCart.splice(i, 1);
     }
   }
+  
   // Return message if item is not found!
   if(!itemFound){
     console.log("That item is not in your cart.");
