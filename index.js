@@ -75,7 +75,7 @@ function removeFromCart(item) {
   // console.log("Just left the loop");
   // Check if item is in cartItems
   if(cartItems.indexOf(item) >= 0){
-    // console.log("It is there!");
+    console.log("It is there!");
     // console.log(cartItems);
     removeCart.splice(cartItems.indexOf(item), 1);
     // console.log(removeCart);
