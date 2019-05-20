@@ -76,13 +76,8 @@ function removeFromCart(item) {
   // Check if item is in cartItems
   let itemPos = cartItems.indexOf(item);
   if(itemPos >= 0){
-    // console.log("It is there!");
-    // console.log(cartItems);
-    // console.log(removeCart);
     removeCart.splice(itemPos, 1);
   } else{
-    // console.log(cartItems);
-    // console.log("It is not there!");
     return "That item is not in your cart.";
   }
   return removeCart;
