@@ -86,6 +86,8 @@ addToCart("yams");
 
 removeFromCart('watermelon');
 console.log(getCart());
+removeFromCart('vanilla');
+
 
 
 function placeOrder(cardNumber) {
