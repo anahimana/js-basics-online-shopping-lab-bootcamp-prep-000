@@ -93,7 +93,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
-  console.log(cardNumber);
+  if(cardNumber === undefined)
 }
 
 placeOrder(343424323);
