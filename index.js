@@ -73,7 +73,7 @@ function removeFromCart(item) {
   
   // Return message if item is not found!
     if(!itemFound){
-      console.log("I couldn't find it!");
+      console.log("That item is not in your cart.");
       return "That item is not in your cart.";
     }
   }
