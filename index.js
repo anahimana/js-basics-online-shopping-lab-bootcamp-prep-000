@@ -61,13 +61,12 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   const removeCart = getCart();
+  const itemFound = false;
   // console.log(removeCart[1].itemName[0]);
   for(let i = 0; i < removeCart.length; i++) {
     if (removeCart[i].itemName[0] === item) {
       console.log("Found item!");
       removeCart.splice(i, 1);
-    }else {
-     console.log("No such item");
     }
   }
 }
