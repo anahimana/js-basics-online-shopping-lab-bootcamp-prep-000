@@ -100,3 +100,5 @@ function placeOrder(cardNumber) {
   // Empty the cart array
   console.log(setCart());
 }
+
+placeOrder(1234);
