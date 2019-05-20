@@ -61,7 +61,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   const removeCart = getCart();
-  // let cartItems = [];
+  let cartItems = [];
 
   // Add items to cartItems
   // for(let i = 0; i < removeCart.length; i++) {
