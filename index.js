@@ -70,7 +70,9 @@ function removeFromCart(item) {
       removeCart.splice(i, 1);
     }
   
-    if(itemFound)
+    if(!itemFound){
+      
+    }
   }
 }
 
