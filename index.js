@@ -62,14 +62,14 @@ function removeFromCart(item) {
   // write your code here
   const removeCart = getCart();
   let itemFound = false;
-  // console.log(removeCart[1].itemName[0]);
+  // Loop to check if itemName is in the array
   for(let i = 0; i < removeCart.length; i++) {
     if (removeCart[i].itemName[0] === item) {
       console.log("Found item!");
       itemFound = true;
       removeCart.splice(i, 1);
     }
-  
+  // 
     if(!itemFound){
       return "Item not found";
     }
