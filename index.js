@@ -80,7 +80,7 @@ function removeFromCart(item) {
     // console.log(cartItems);
     console.log(removeCart);
     removeCart.splice(itemPos, 1);
-    // console.log(removeCart);
+    console.log(removeCart);
     
   } else{
     // console.log(cartItems);
