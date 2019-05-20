@@ -69,6 +69,8 @@ function removeFromCart(item) {
       itemFound = true;
       removeCart.splice(i, 1);
     }
+  
+    if(itemFound)
   }
 }
 
