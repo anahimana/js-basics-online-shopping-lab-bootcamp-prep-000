@@ -61,24 +61,12 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   const removeCart = getCart();
-  // let cartItems = [];
 
-  // Add items to cartItems
   for(let i = 0; i < removeCart.length; i++) {
     if (removeCart[i].itemName === item) {
       removeCart.splice(i, 1);
     }
-    // cartItems.push(removeCart[i].itemName);
   }
-  
-  // Check if item is in cartItems
-//   let itemPos = cartItems.indexOf(item);
-//   if(itemPos >= 0){
-//     removeCart.splice(itemPos, 1);
-//   } else{
-//     return "That item is not in your cart.";
-//   }
-//   return removeCart;
 }
 
 removeFromCart('Oranges');
