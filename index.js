@@ -63,7 +63,7 @@ function removeFromCart(item) {
   const removeCart = getCart();
   let cartItems = [];
 
-  Add items to cartItems
+  // Add items to cartItems
   for(let i = 0; i < removeCart.length; i++) {
     cartItems.push(removeCart[i].itemName);
   }
