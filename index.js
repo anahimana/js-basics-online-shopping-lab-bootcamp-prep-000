@@ -79,7 +79,7 @@ function removeFromCart(item) {
 //   return removeCart;
 }
 
-removeFromCart('Oranges')
+removeFromCart('Oranges');
 // console.log(removeFromCart('Oranges'));
 // console.log(removeFromCart('Candy'));
 
