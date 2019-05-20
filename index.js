@@ -99,6 +99,7 @@ function placeOrder(cardNumber) {
   }else {
     // Construct response
     const message = `Your total cost is \$${total()}, which will be charged to the card ${cardNumber}.`;
+    // Empty cart
     setCart([]);
     return message;
   }
