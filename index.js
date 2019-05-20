@@ -91,7 +91,7 @@ function removeFromCart(item) {
 }
 
 console.log(removeFromCart('Oranges'));
-console.log(removeFromCart('Candy'));
+// console.log(removeFromCart('Candy'));
 
 
 function placeOrder(cardNumber) {
