@@ -104,5 +104,3 @@ function placeOrder(cardNumber) {
     return message;
   }
 }
-
-placeOrder(1234);
