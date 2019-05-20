@@ -61,8 +61,6 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   const removeCart = getCart();
-  // const removeCart = myArray.slice(0, myArray.length);
-  // console.log(removeCart);
   let cartItems = [];
 
   // Add items to cartItems
