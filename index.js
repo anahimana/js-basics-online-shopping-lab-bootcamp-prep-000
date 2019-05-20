@@ -98,8 +98,7 @@ function placeOrder(cardNumber) {
     return "Sorry, we don't have a credit card on file for you.";
   }
   // Empty the cart array
-  console.log("Hello!");
-  console.log(setCart(cart));
+  setCart(cart)
 }
 
 placeOrder(1234);
