@@ -61,7 +61,7 @@ let myArray = [{itemName: "Apples", itemPrice: 10}, {itemName: "Oranges", itemPr
 
 function removeFromCart(item) {
   // write your code here
-  const removeCart = getCart().slice(0, getCart().length);
+  const removeCart = getCart();
   // const removeCart = myArray.slice(0, myArray.length);
   // console.log(removeCart);
   let cartItems = [];
