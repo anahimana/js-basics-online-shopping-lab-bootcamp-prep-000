@@ -99,6 +99,7 @@ function placeOrder(cardNumber) {
   }
   // Empty the cart array
   setCart(cart);
+  
 }
 
 placeOrder(1234);
